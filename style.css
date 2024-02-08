@@ -1,0 +1,146 @@
+@import url('https://fonts.googleapis.com/css2?family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+ background-color: hsl(30, 54%, 90%);
+ font-family: "Young Serif", serif;
+ display: flex;
+ justify-content: center;
+ padding:135px 0px;
+
+}
+
+.container-bg{
+    max-width: 775px;
+    /* margin-inline: auto; */
+    overflow: hidden;
+    background-color: white;
+    padding-inline: 32px;
+    border-radius:20px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.15);
+   
+}
+
+  
+.main-img{
+    max-width:100%;
+    padding-top: 34px;
+    padding-bottom: 34px;
+    border-radius: 34px;
+}
+
+.paragraph{
+    padding:20px 0px;
+    font-size: 16px;
+    color:hsl(30, 10%, 34%);
+
+}
+
+.section1{
+    background-color: hsl(30, 54%, 90%);
+    border-radius: 19px;
+    padding-top: 24px;
+    padding-left: 43px;
+}
+.section1 h3{
+
+    color:hsl(332, 51%, 32%);
+    
+}
+
+.sec1ul{
+    padding: 20px 23px;
+}
+
+.sec1li{
+    padding: 8px 0px;
+    color: hsl(30, 10%, 34%);
+    
+}
+
+.section2{
+    border-radius: 19px;
+    padding-top: 24px;
+}
+
+.section2 h2{
+    color:hsl(14, 45%, 36%);
+}
+
+.sec2ul{
+    padding: 13px 23px;
+   
+}
+
+.sec2li{
+    padding: 8px 0px;
+    color: hsl(30, 10%, 34%);
+}
+
+hr{
+    color:hsl(30, 18%, 87%);
+    height:2px;
+   
+}
+
+.section3{
+    padding-top: 24px;
+}
+
+.section3 h2{
+    color:hsl(14, 45%, 36%);
+}
+
+.sec3ol{
+    padding: 13px 23px;
+   
+}
+
+.sec3li{
+    padding: 8px 0px;
+    color: hsl(30, 10%, 34%);
+}
+
+.section4{
+    padding-top: 24px;
+}
+
+.section4 h2{
+    color:hsl(14, 45%, 36%);
+}
+
+
+
+.section4 p{
+    padding:9px 0px;
+    color: hsl(30, 10%, 34%);
+}
+
+.ul-container{
+    display: flex;
+    justify-content: space-between;
+    line-height: 34px;
+    color: hsl(30, 18%, 87%);
+    text-align: start;
+}
+
+.sec4p{
+    display: flex;
+    color: hsl(30, 10%, 34%);
+  
+}
+
+.spn1{
+    width:53%;
+}
+
+.spn2{
+    color:hsl(14, 45%, 36%);
+    font-weight: bold;
+}
